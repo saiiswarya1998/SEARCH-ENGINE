@@ -4,7 +4,6 @@ import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs'
 
 const ThemeToggle = () => {
   const { isDarkTheme, toggleDarkTheme } = useGlobalContext()
-  console.log(isDarkTheme)
   return (
     <section className='toggle-container'>
       <button className='dark-toggle' onClick={toggleDarkTheme}>
